@@ -1,0 +1,35 @@
+name: Build
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch pinned dependencies
+        shell: pwsh
+        run: ./scripts/FetchDependencies.ps1
+      - name: Build runtime and startup checks
+        shell: pwsh
+        run: |
+          ./build.cmd
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          ./build.cmd ReleaseDefaultsValidation
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          ./build-release/bin/ReleaseDefaultsValidation.exe
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Package and validate
+        shell: pwsh
+        run: |
+          ./package/BuildPackage.ps1
+          ./tools/ReleasePackageValidation.ps1 -Runtime ./dist/release/PlagueTaleInnocenceVR-0.1.0 -OutputDirectory ./build-release/package-validation
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PlagueTaleInnocenceVR
+          path: |
+            dist/release/*.zip
+            dist/release/*.sha256

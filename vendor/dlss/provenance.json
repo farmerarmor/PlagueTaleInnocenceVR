@@ -1,0 +1,18 @@
+{
+  "commit": "9981c6350dc58c0ce21f024fd65e31e851c31689",
+  "repository": "https://github.com/NVIDIA/DLSS",
+  "downloaded": [
+    "LICENSE.txt",
+    "include/nvsdk_ngx.h",
+    "include/nvsdk_ngx_defs.h",
+    "include/nvsdk_ngx_params.h",
+    "include/nvsdk_ngx_helpers.h",
+    "include/nvsdk_ngx_helpers_d3d.h",
+    "include/nvsdk_ngx_defs_dlssd.h",
+    "include/nvsdk_ngx_params_dlssd.h",
+    "include/nvsdk_ngx_helpers_dlssd.h",
+    "include/nvsdk_ngx_loader.h",
+    "lib/Windows_x86_64/x64/nvsdk_ngx_d.lib",
+    "doc/DLSS_Programming_Guide_Release.pdf"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "openxr": {
+    "commit": "c07ad64839653712190e05dbd8cf460e1d239513",
+    "url": "https://codeload.github.com/KhronosGroup/OpenXR-SDK-Source/zip/c07ad64839653712190e05dbd8cf460e1d239513",
+    "sha256": "64553E3172B4D84E1DF2E029C77F290183FCB28AF8243DEBC6490BFFD908DC44",
+    "archivePrefix": "OpenXR-SDK-Source-c07ad64839653712190e05dbd8cf460e1d239513/"
+  },
+  "dlss": {
+    "commit": "9981c6350dc58c0ce21f024fd65e31e851c31689",
+    "files": [
+      {
+        "path": "bin/nvngx_dlss.dll",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/lib/Windows_x86_64/rel/nvngx_dlss.dll",
+        "sha256": "D00B5B0AB29C3CA101B70C3A5ECB3A01B7EF33766A3383A28A18623083E6123E"
+      },
+      {
+        "path": "include/nvsdk_ngx.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx.h",
+        "sha256": "DC38E7467CF415379C9D12AE1B6E4A494C453ED92720FB53E92AECB523E7B848"
+      },
+      {
+        "path": "include/nvsdk_ngx_defs.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_defs.h",
+        "sha256": "EA23F33497CD274860D1C25A97644FCE807DCB0037C594547203343103FAD03E"
+      },
+      {
+        "path": "include/nvsdk_ngx_defs_dlssd.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_defs_dlssd.h",
+        "sha256": "2E97FE1595B1334F71B51724F2CB67496E8C296A7A2EEC5606DA53055882E716"
+      },
+      {
+        "path": "include/nvsdk_ngx_helpers.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_helpers.h",
+        "sha256": "5BCBADFE7478B802CF6D3ACA4DC5DDD7D0889B99726E69C63F9E9BD555F44471"
+      },
+      {
+        "path": "include/nvsdk_ngx_helpers_d3d.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_helpers_d3d.h",
+        "sha256": "EC75224F36ED6580BAAF250FA83620405AD81A1D98C2C436654A0C9CF6A6B8BA"
+      },
+      {
+        "path": "include/nvsdk_ngx_helpers_dlssd.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_helpers_dlssd.h",
+        "sha256": "A25FDDA925B479DFE869593AEBA311EF08793DA54E0391F2FE2FE756CBEF5532"
+      },
+      {
+        "path": "include/nvsdk_ngx_loader.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_loader.h",
+        "sha256": "ABDF5F66A692620538357D29FDF78E3E2A677EE8140B7A638962ECB766585E75"
+      },
+      {
+        "path": "include/nvsdk_ngx_params.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_params.h",
+        "sha256": "943BC8CC5CDAE03B6303016FBAD3183636F2335AE27A2D18776798C3B4EFABBC"
+      },
+      {
+        "path": "include/nvsdk_ngx_params_dlssd.h",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/include/nvsdk_ngx_params_dlssd.h",
+        "sha256": "D41E3BA8F1D72583B55273092C99BF426DC4A0D46DE827229E25D5B1325A370E"
+      },
+      {
+        "path": "lib/nvsdk_ngx_d.lib",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/lib/Windows_x86_64/x64/nvsdk_ngx_d.lib",
+        "sha256": "BC43DF9EC032004FDE681D3E3AFD01CDE239E03A0125B822E88674C84287F99C"
+      },
+      {
+        "path": "LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/NVIDIA/DLSS/9981c6350dc58c0ce21f024fd65e31e851c31689/LICENSE.txt",
+        "sha256": "D4216E39EBEF5F9B50A6712EBB37BEEB5379862A67733A9999C651F21592AAF0"
+      }
+    ]
+  }
+}
